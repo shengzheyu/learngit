@@ -26,3 +26,5 @@ git reflog //会退后，想返回之前未回退的版本，根据此命令查�
 // git commit 则是将所有暂存区的文件一并提交到当前分支（一开始建立Git库，会自动创建一个master的分支）
 
 cat read.txt//查看read.txt 的内容。每次修改都要先add 否则只会提交add的文件，没add就修改的不会被提交
+
+git diff -- head readme.txt //查看和库中的不一样。。。没讲明白，，。差不多意思。。
