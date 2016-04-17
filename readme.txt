@@ -24,3 +24,5 @@ git reflog //会退后，想返回之前未回退的版本，根据此命令查�
 
 //讲git add 是将文件存入暂存区
 // git commit 则是将所有暂存区的文件一并提交到当前分支（一开始建立Git库，会自动创建一个master的分支）
+
+cat read.txt//查看read.txt 的内容
