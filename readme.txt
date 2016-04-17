@@ -28,3 +28,7 @@ git reflog //会退后，想返回之前未回退的版本，根据此命令查�
 cat read.txt//查看read.txt 的内容。每次修改都要先add 否则只会提交add的文件，没add就修改的不会被提交
 
 git diff -- head readme.txt //查看和库中的不一样。。。没讲明白，，。差不多意思。。
+
+git checkout -- readme.txt //意思就是，把readme.txt文件在工作区的修改全部撤销,会退到最近一次的commit或者add
+							//git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令
+							//分支管理中会再次遇到git checkout命令。
