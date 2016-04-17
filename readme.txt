@@ -44,3 +44,7 @@ git checkout dev //选择当前名为dev的分支
 
 git checkout master//切换分支 到master下
 git mesge dev//将dev分支下的更改全部合并到master下
+
+git branch dev //创建新的分支 名为dev
+
+git branch -d dev //删除分支
