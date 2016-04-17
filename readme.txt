@@ -37,3 +37,10 @@ git push //远程推送
 git push origin master //把本地master分支的最新修改推送至GitHub
 
 git checkout -b dev //创建新的分支dev同时选择此分支
+
+git branch //查看当前有多少分支
+
+git checkout dev //选择当前名为dev的分支
+
+git checkout master//切换分支 到master下
+git mesge dev//将dev分支下的更改全部合并到master下
