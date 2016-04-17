@@ -35,3 +35,5 @@ git checkout -- readme.txt //意思就是，把readme.txt文件在工作区的�
 git push //远程推送
 
 git push origin master //把本地master分支的最新修改推送至GitHub
+
+git checkout -b dev //创建新的分支dev同时选择此分支
