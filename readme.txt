@@ -50,3 +50,5 @@ git branch dev //创建新的分支 名为dev
 git branch -d dev //删除分支
 
 git clone -b 分支名 git库地址名 //下载分支
+
+git push origin 分支名 //将分支提交到远程库。。。
