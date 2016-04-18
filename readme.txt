@@ -48,3 +48,5 @@ git mesge dev//将dev分支下的更改全部合并到master下
 git branch dev //创建新的分支 名为dev
 
 git branch -d dev //删除分支
+
+git clone -b 分支名 git库地址名 //下载分支
